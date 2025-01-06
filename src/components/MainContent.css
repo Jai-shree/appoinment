@@ -1,0 +1,62 @@
+
+body {
+  background-color: #a0e8cc;
+  color: white; 
+  margin: 0;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+}
+
+.loading-text{
+  justify-content: center;
+  color: black;
+  padding-left: 700px;
+  font-size: 50px;
+  padding-top: 200px;
+}
+.error-text{
+  justify-content: center;
+  color: black;
+  padding-left: 700px;
+  font-size: 50px;
+  padding-top: 200px;
+}
+.main-content {
+  background-color: #a0e8cc; 
+  color: black; 
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+
+.appointment-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1a1a1a; 
+  color: white;
+  max-width: 1200px;
+  margin-left: 180px;
+}
+.main-content h2 {
+  text-align: center;
+  width: 100%; 
+  margin-left: 200px;
+}
+.appointment-table th,
+.appointment-table td {
+  border: 1px solid #444; 
+  padding: 8px;
+  text-align: left;
+}
+
+.appointment-table th {
+  background-color: #333; 
+}
+
+.appointment-table tr:hover {
+  background-color: #444; /
+}

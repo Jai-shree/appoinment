@@ -1,0 +1,29 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.app {
+  display: flex; 
+  height: 100vh; 
+}
+
+.sidebar {
+  width: 10px;
+  background-color: #333; 
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100%; 
+  flex-shrink: 0;
+}
+
+
+.main-content {
+  flex: 1;
+  background-color: #a0e8cc;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}

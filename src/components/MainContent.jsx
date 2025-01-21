@@ -9,7 +9,7 @@ const MainContent = () => {
   useEffect(() => {
     const fetchAppointments = async () => {
       try {
-        const response = await fetch("http://localhost:3000/appointments");
+        const response = await fetch("http://65.2.122.6:3000/appointments");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
